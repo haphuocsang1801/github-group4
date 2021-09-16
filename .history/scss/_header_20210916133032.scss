@@ -1,0 +1,27 @@
+.header{
+    padding-top: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-logo{
+        &-image{
+            width: 250px;
+        }
+    }
+    &-menu{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        &-item{    
+            a{
+                color: $gray-dark;
+                text-decoration: none;
+            }
+        }
+    }
+    &-auth{
+        list-style: none;
+        text-decoration: none;
+    }
+    
+}

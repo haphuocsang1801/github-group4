@@ -1,0 +1,24 @@
+.header{
+    padding-top: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-logo{
+        &-image{
+            width: 250px;
+        }
+    }
+    &-menu{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        &-item{
+            color: $gray-dark:#272E35;;
+            a{
+                text-decoration: none;
+
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,65 @@
+.footer {
+  margin-top: 100px;
+  padding: 0 ;
+  &-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  &-logo {
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+  &-desc {
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+  .social {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+  }
+  .social-item {
+    cursor: pointer;
+    color: $gray-dark;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  &-heading {
+    font-size: 18px;
+    color: $gray-dark;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  &-links {
+    list-style: none;
+  }
+  &-item {
+    margin-bottom: 30px;
+  }
+  &-link {
+    display: inline-block;
+    color: $gray-dark;
+  }
+  &-info {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+  &-info li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  &-highlight {
+    color: white;
+  }
+  &-bottom {
+    background-color: $gray-dark;
+    line-height: 1.6;
+  }
+  &-bottom a {
+    text-decoration: inherit;
+    color: white;
+  }
+}
