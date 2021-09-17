@@ -4,10 +4,10 @@
 }
 
 .container-login {
-  width: 300px;
+  max-width: 300px;
   margin: 0 auto;
-  margin-top: 200px;
 }
+
 
 .button {
   transition: all 0.2s linear;
@@ -34,7 +34,7 @@
   justify-content: space-between;
 }
 .header-logo-image {
-  width: 290px;
+  width: 250px;
 }
 .header-menu {
   display: flex;
@@ -178,11 +178,6 @@
 .footer-bottom a {
   text-decoration: inherit;
   color: white;
-}
-
-.login-title {
-  font-size: 36px;
-  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
