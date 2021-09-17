@@ -1,0 +1,35 @@
+.login {
+  &-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  &-input{
+    width: 100%;
+    outline: none;
+    border: 0;
+    padding: 10px 0;
+    background-color: $background-input;
+    border-radius: 5px;
+  }
+  &-main{
+      width: 400px;
+      height: auto;
+      padding: 30px;
+      align-items: center;
+      background-color: #eee;
+      margin: 0 auto;
+      border-radius: 5px;
+  }
+  &-submit{
+    font-family: 'Poppins', sans-serif;
+    width: 30px;
+  }
+}
+

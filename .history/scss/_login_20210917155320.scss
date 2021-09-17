@@ -1,0 +1,17 @@
+.login{
+    &-title{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    &-item{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    &-logo{
+      width: 40px;
+      height: 40px;
+        background-color: #CCCC;
+        border-radius: ;
+    }
+}
