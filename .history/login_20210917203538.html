@@ -27,33 +27,36 @@
   </head>
   <body>
     <div class="wrapper">
-      <section class="header"></section>
+      <section class="header">
+      </section>
       <section class="login">
         <div class="login-main">
-          <div class="login-title">Log in.</div>
-          <div class="login-field">
-            <i class="fa fa-envelope login-icon"> </i>
-            <input
-              type="text"
-              class="login-input"
-              placeholder="Email or phone nubmer"
-            />
+          <div class="login-title">
+            Log in.
           </div>
           <div class="login-field">
-            <i class="fa fa-lock login-icon"> </i>
-            <input type="password" class="login-input" placeholder="Password" />
+            <i class="fa fa-envelope login-icon">
+            </i>
+            <input type="text" class="login-input" placeholder="Email or phone nubmer">
+          </div>
+          <div class="login-field">
+            <i class="fa fa-lock login-icon">
+            </i>
+            <input type="password" class="login-input" placeholder="Password">
           </div>
           <a href="#" class="login-forgot-password">Forgot password?</a>
           <button class="login-submit">Login</button>
         </div>
       </section>
     </div>
-    <footer class="footer footer--login"></footer>
+    <footer class="footer footer--login">
+      
+    </footer>
   </body>
-  <script>
-    $(function () {
-      $(".header").load("header.html");
-      $(".footer").load("footer.html");
+  <script> 
+    $(function(){
+      $(".header").load("header.html"); 
+      $(".footer").load("footer.html"); 
     });
-  </script>
+    </script> 
 </html>
