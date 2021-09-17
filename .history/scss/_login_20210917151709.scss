@@ -1,0 +1,12 @@
+.login{
+    &-title{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    &-phone{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 5px;
+    }
+}

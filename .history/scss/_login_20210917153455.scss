@@ -1,0 +1,13 @@
+.login{
+    &-title{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    &.login-item{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+}
