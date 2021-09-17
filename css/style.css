@@ -34,7 +34,7 @@
   justify-content: space-between;
 }
 .header-logo-image {
-  width: 290px;
+  width: 235px;
 }
 .header-menu {
   display: flex;
@@ -183,6 +183,12 @@
 .login-title {
   font-size: 36px;
   font-weight: bold;
+}
+.login-phone {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
