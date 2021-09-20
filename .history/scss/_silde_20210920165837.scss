@@ -1,0 +1,34 @@
+.silder{
+    max-width: 1000px;
+    margin: 25px auto;
+    position: relative;
+    &-prev,&-next{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50px;
+        height: 50px;
+        border-radius: 100rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #999;
+        background-color: $background;
+        cursor: pointer;
+        font-size: 20px;
+        z-index: 10;
+    }
+    &-next {
+    right: -25px;
+    }
+    &-prev {
+    left: -25px;
+    }
+    &-main{
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+        position: relative;
+        
+    }
+}
